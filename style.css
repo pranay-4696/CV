@@ -1,0 +1,82 @@
+.pic
+{
+  text-align: center;
+  margin: 40px 0 20px;
+}
+.profile-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+#top{
+  padding: 20px 10px;
+}
+.left
+{
+  padding: 10px;
+  background-color: #256D85;
+  color: #fff;
+  order: 2;
+}
+.right{
+  order: 1;
+}
+a
+{
+  text-decoration: none;
+  color: #ffff;
+}
+a:hover{
+  text-decoration: underline;
+  color: #fff;
+  opacity: 0.5;
+}
+.projects a{
+  color:  #256D85;
+}
+.footer{
+  text-align: center;
+  margin: 10px;
+}
+.left div{
+  margin: 10px 0;
+}
+.right h1,h2
+{
+  color: #256D85;
+}
+i{
+  margin: 9px;
+}
+@media(max-width: 700px)
+{
+  #top{
+  padding: 0px;
+}
+.left
+{
+  background-color: #256D86;
+  color: #fff;
+  order: 1;
+}
+.right
+{
+  order: 2;
+}
+.head{
+  margin: 0px;
+  padding: 0;
+ 
+  text-align: center;
+  
+}
+.left div{
+  margin: 0px 0;
+}
+.head h1{
+  
+}
+.pic{
+  padding: 40px 0 0;
+}
+}
